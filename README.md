@@ -8,7 +8,7 @@ Oracle OpenJDK version 18.0.1
 
 ## 起動するための手順（データベースの準備やSpring Bootの起動）
 
-- application.properties ていう フォルダ に postgre をつかって データベース と コネクト します。
+- application.propertiesにpostgreSQLの接続先を記載します。
 - studentパッケージにStudentクラスを作成します。
 - student repository には すべての 学生のデータを セレクトします。
 - student controller API からリクエストの処理、student serviceから機能を使います。
