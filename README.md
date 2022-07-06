@@ -11,5 +11,5 @@ Oracle OpenJDK version 18.0.1
 - application.properties ていう フォルダ に postgre をつかって データベース と コネクト します。
 - studentパッケージにStudentクラスを作成します。
 - student repository には すべての 学生のデータを セレクトします。
-- student controller API から リクエストの処理,student service から 機能 を使います。
+- student controller API からリクエストの処理、student serviceから機能を使います。
 - student service には CRUD の 機能 をかきます。
