@@ -4,7 +4,7 @@
 
 ## 動作する環境（Javaのバージョン）
 
-Oracale OpenJDK version 18.0.1
+Oracle OpenJDK version 18.0.1
 
 ## 起動するための手順（データベースの準備やSpring Bootの起動）
 
