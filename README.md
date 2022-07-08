@@ -12,4 +12,4 @@ Oracle OpenJDK version 18.0.1
 - studentパッケージにStudentクラスを作成します。
 - student repository にはすべての学生のデータをセレクトします。
 - student controller API からリクエストの処理、student serviceから機能を使います。
-- student service には CRUD の 機能 をかきます。
+- student serviceにはCRUDの機能をかきます。
