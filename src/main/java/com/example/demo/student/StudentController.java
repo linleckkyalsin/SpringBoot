@@ -36,6 +36,6 @@ public class StudentController {
 
     @PutMapping(path = "{studentId}")
     public void updateStudent(@PathVariable("studentId") Long studentId, @RequestParam(required = false) String name, @RequestParam("dob") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate dob, @RequestParam(required = false) String email) {
-        studentService.updateStudent(studentId, name, dob, emailgit);
+        studentService.updateStudent(studentId, name, dob, email);
     }
 }
